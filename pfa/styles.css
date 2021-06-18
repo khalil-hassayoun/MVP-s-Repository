@@ -293,6 +293,7 @@
     width: 100%;
     max-width: 1300px;
     padding: 0 50px;
+    height: 100%;
   }
   
   .main__content {
@@ -397,7 +398,7 @@
     background-image: linear-gradient(to right, #de5900 0%, #ff0000 100%);
   }
   
-  .fa-layer-group,
+  .fa-layers,
   .fa-users {
     font-size: 14rem;
   }
@@ -455,12 +456,12 @@
       width: 250px;
       height: 250px;
     }
-  
-    .fa-users,
-    .fa-layer-group {
-      font-size: 4rem;
-    }
-  
+
+    .fa-layer-group,
+.fa-users {
+  font-size: 14rem;
+}
+
     .main__content h1 {
       font-size: 2rem;
       margin-top: 3rem;
@@ -479,7 +480,7 @@
     }
   }
   
-  /* Services Section */
+  /* learn Section */
   .services {
     /* background: #131313; */
     background: linear-gradient(to right, rgb(22, 22, 22), rgb(0, 0, 0));
@@ -521,23 +522,46 @@
     background-image: linear-gradient(to right, #fa54129c 0%, #ffb8a6 100%);
     transition: 0.3s ease-in;
   }
-  
-  .services__card:nth-child(2) {
-    background: #1fa2ff; /* fallback for old browsers */
-    background: -webkit-linear-gradient(
-      to right,
-      #ffb8a6,
-      #fa5412,
-      #722727
-    ); /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(
-      to right,
-      #ffb8a6,
-      #fa5412,
-      #722727
-    ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+  .services__card:nth-child(1) {
+    background-image: linear-gradient(
+      -225deg,
+      #812f08 0%,
+      #ec4a0a 29%,
+      #c46206fd 67%,
+      #ff5e00 100%
+    );
   }
   
+  .services__card:nth-child(2) {
+    background-image: linear-gradient(
+      -225deg,
+      #812f08 0%,
+      #ec4a0a 29%,
+      #c46206fd 67%,
+      #ff5e00 100%
+    );
+  }
+  
+  .services__card:nth-child(3) {
+    background-image: linear-gradient(
+      -225deg,
+      #812f08 0%,
+      #ec4a0a 29%,
+      #c46206fd 67%,
+      #ff5e00 100%
+    );
+  }
+  
+  .services__card:nth-child(4) {
+    background-image: linear-gradient(
+      -225deg,
+      #812f08 0%,
+      #ec4a0a 29%,
+      #c46206fd 67%,
+      #ff5e00 100%
+    );
+  }
   
   .services__card h2 {
     text-align: center;
@@ -705,14 +729,14 @@
     }
   }
   .card {
-    background: transparent
-    border-radius: 2px;
-    display: inline-block;
-    height: 300px;
-    margin: 1rem;
-    position: relative;
-    width: 1000px;
-    margin-right: 107px;
+    background : transparent
+    border-radius : 2px;
+    display : inline-block;
+    height : 300px;
+    margin : 1rem;
+    position : relative;
+    width : 1000px;
+    margin-right : 107px;
   }
   
   .card-1 {
@@ -725,12 +749,18 @@
   }
   p{
     /* font-family: font-family: Georgia, serif; */
-    font-size: 19px;
+    font-size: 16px;
     font-weight: bold;
     color: #fff;
-    font-family: monospace;
+    font-family:monospace;
     /* background-color:transparent */}
   .hero__heading1{
-   color: rgba(247, 103, 60, 1);
+   color: rgb(252, 59, 0);
    font-size: 35px;
+  }
+  h3{
+    font-size: 32px;
+    color:orange;
+    background-color:black;
+    width: 100%;
   }
